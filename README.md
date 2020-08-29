@@ -6,10 +6,9 @@
 
 ![MIT License](https://img.shields.io/github/license/connorads/meet-kicker)
 
-> Kick your colleagues out of Google Meet 🦶
+> A Chrome Extension to quickly kick people out of Google Meet at random 🦶
 
-Just click on the Meet Kicker extension icon to kick someone.
+1. Click on the Meet Kicker extension icon to kick someone at random
+2. Keep kicking until you have no friends left
 
-Keep kicking until you have no friends left.
-
-Bonus: You can even kick the last person left 😍
+_Bonus: You can even kick the last person left_ 😍
