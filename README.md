@@ -8,6 +8,8 @@
 
 > A Chrome Extension to quickly kick people out of Google Meet at random 🦶
 
+[![Add to Chrome](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/meet-kicker-%F0%9F%A6%B6/aonhapalnnnjlonafnammcbnafmafmpg)
+
 ⚠ Restart Chrome after installation
 
 1. Click on the Meet Kicker extension icon to kick someone at random
