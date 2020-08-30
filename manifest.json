@@ -1,6 +1,6 @@
 {
   "name": "Meet Kicker 🦶",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Quickly kick people out of Google Meet at random",
   "homepage_url": "https://github.com/connorads/meet-kicker",
@@ -21,6 +21,5 @@
   ],
   "page_action": {
     "default_icon": "icons/icon19.png"
-  },
-  "permissions": ["https://meet.google.com/*"]
+  }
 }
