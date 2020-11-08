@@ -10,7 +10,9 @@
 
 [![Add to Chrome](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/meet-kicker-%F0%9F%A6%B6/aonhapalnnnjlonafnammcbnafmafmpg)
 
-⚠ Restart Chrome after installation
+🚨 This is not a hack. You need to have permission to kick people already. This is just an app to make it quicker & easier to kick other people. 🚨
+
+⚠ May need to restart Chrome after installation
 
 1. Click on the Meet Kicker extension icon to kick someone at random
 2. Keep kicking until you have no friends left
