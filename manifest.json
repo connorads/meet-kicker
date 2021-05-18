@@ -10,13 +10,19 @@
     "128": "icons/icon128.png"
   },
   "background": {
-    "scripts": ["src/background.js"],
+    "scripts": [
+      "src/background.js"
+    ],
     "persistent": false
   },
   "content_scripts": [
     {
-      "matches": ["https://meet.google.com/*"],
-      "js": ["src/content.js"]
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "js": [
+        "src/content.js"
+      ]
     }
   ],
   "page_action": {
