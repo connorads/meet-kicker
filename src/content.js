@@ -11,7 +11,7 @@ https://github.com/connorads/meet-kicker/issues`;
 chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
   if (msg.text === "kick") {
     const removeButton = document.querySelector(
-      '[data-tooltip="Remove from meeting"]'
+      '[data-tooltip="Remove from meeting"], [data-tooltip="Retirer de la réunion"]'
     );
     if (removeButton) {
       removeButton.click();
