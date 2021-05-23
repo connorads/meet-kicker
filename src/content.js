@@ -2,10 +2,12 @@ const getAlertText = (errorMessage) => `Meet Kicker 🦶
 
 ${errorMessage}
 
-• Is there someone else in the meeting?
-• Do you have permission to remove users?
+💡 Try manually kicking a user using the Google Meet UI, did it work?
 
-If both yes but still not working please report this issue
+If not, then you probably don't have permission to kick users
+Remember: 🚨 This is not a hack 🚨
+
+If manual kick works but Meet Kicker 🦶 does not then please report this issue
 https://github.com/connorads/meet-kicker/issues`;
 
 chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
