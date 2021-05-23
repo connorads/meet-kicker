@@ -25,6 +25,9 @@
       ]
     }
   ],
+  "permissions": [
+    "declarativeContent"
+  ],
   "page_action": {
     "default_icon": "icons/icon19.png"
   }
