@@ -10,7 +10,7 @@ Remember: 🚨 This is not a hack 🚨
 If manual kick works but Meet Kicker 🦶 does not then please report this issue
 https://github.com/connorads/meet-kicker/issues`;
 
-chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
+chrome.runtime.onMessage.addListener((msg) => {
   if (msg.text === "kick") {
     const removeButton = document.querySelector(
       '[data-tooltip="Remove from meeting"], [jsname="BUtajd"]'
