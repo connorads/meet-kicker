@@ -1,7 +1,8 @@
-chrome.tabs.onActivated.addListener(({ tabId }) => {
-  chrome.pageAction.show(tabId);
-});
+const showPageAction = ({ tabId }) => chrome.pageAction.show(tabId);
 
-chrome.pageAction.onClicked.addListener((tab) => {
-  chrome.tabs.sendMessage(tab.id, { text: "kick" });
-});
+chrome.tabs.onCreated.addListener(showPageAction);
+chrome.tabs.onActivated.addListener(showPageAction);
+
+chrome.pageAction.onClicked.addListener((tab) =>
+  chrome.tabs.sendMessage(tab.id, { text: "kick" })
+);
