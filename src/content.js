@@ -16,6 +16,15 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
       '[data-tooltip="Remove from meeting"], [jsname="BUtajd"]'
     );
     if (removeButton) {
+      if (removeButton.getAttribute("aria-disabled")) {
+        alert(
+          getAlertText(
+            "Error 3: Remove button is disabled, do you have permission to kick users? 🤔"
+          )
+        );
+        return;
+      }
+
       removeButton.click();
       setTimeout(() => {
         const confirmButton = document.querySelector('[data-id="EBS5u"]');
@@ -26,7 +35,11 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
         }
       }, 100);
     } else {
-      alert(getAlertText("Error 1: Remove user button not found 😢"));
+      alert(
+        getAlertText(
+          "Error 1: Remove user button not found, is there someone else in the meeting? 🤔"
+        )
+      );
     }
   }
 });
